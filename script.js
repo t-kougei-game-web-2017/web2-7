@@ -44,7 +44,7 @@ onload = function(){
   set_attribute([pos_vbo, col_vbo], attLocation, attStride);
 
   // uniformLocationの取得
- var uniLocation = gl.getUniformLocation(prg, 'mvpMatrix');
+ var uniLocation = gl.getUniformLocation(prg, 'wvpMatrix');
 
   // minMatrix.js を用いた行列関連処理
   // matIVオブジェクトを生成
